@@ -1,38 +1,125 @@
-.App {
+.main-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+ul {    
+  list-style-type: none;    
+  margin: 0;    
+  padding: 0px;    
+  overflow: hidden;    
+  background-color: rgb(180, 153, 153); 
+  width:100%;
+} 
+
+.contact1 {
+  text-align: center;
+  background-color: #fff;
+  nav-down: initial;
+}
+    
+li {    
+  float: left; 
+  width:33%   
+}    
+    
+li a {    
+  display: block;    
+  color: brown;    
+ font-size:20px;    
+  text-align: center;    
+  padding: 10px 20px;    
+  text-decoration: none;    
+}    
+.active{    
+background-color: gray;    
+color: white;    
+}    
+li a:hover {    
+  background-color: orange;    
+  color: white;    
+}   
+
+.contact {
+  font-style: italic;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 50px;
+}
+h1 {
+  text-align: center;
+  font-style: italic;
+}
+.experience-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px inset #1a0101;
+  border-radius: 1px;
+  border-width: 10px;
+}
+.experience-item h2 {
+  margin-top: 0;
+  font-style: italic;
+}
+.experience-item p {
+  text-align: 20%;
+  margin: 5px 0;
+  font-style: italic;
+  font-size: larger;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about {
+  text-align: center;
+  padding: 10px;
+  border: 1px inset #1a0101;
+  border-radius: 1px;
+  border-width: 10px;
+  font-style: italic;
+  font-size: larger;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.experiences-title{
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  display: block;
+  margin-bottom: 5px;
 }
+
+.nav__menu {
+  border: 1px inset #1a0101;
+  border-radius: 1px;
+  border-width: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+body {
+  background: url(background.jpg) no-repeat center;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
