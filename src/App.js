@@ -1,6 +1,6 @@
 import './App.css'; // Import your style file
 import React from "react";
-import Background from './background.jpg'
+// import Background from './background.jpg'
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -68,7 +68,7 @@ const App = () => {
        </Routes>
      </main>
    </Router>
-  <Background/>
+  {/* <Background/> */}
      </>
  );
 };
